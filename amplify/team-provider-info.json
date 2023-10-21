@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-flyfare-staging-191938-authRole",
+      "UnauthRoleArn": "arn:aws:iam::583169875243:role/amplify-flyfare-staging-191938-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::583169875243:role/amplify-flyfare-staging-191938-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-flyfare-staging-191938-deployment",
+      "UnauthRoleName": "amplify-flyfare-staging-191938-unauthRole",
+      "StackName": "amplify-flyfare-staging-191938",
+      "StackId": "arn:aws:cloudformation:us-east-1:583169875243:stack/amplify-flyfare-staging-191938/20d22490-63b4-11ee-a202-0aa454bbb2a1",
+      "AmplifyAppId": "d29nppnt9zqsdm"
+    },
+    "categories": {
+      "auth": {
+        "flyfare": {}
+      }
+    }
+  }
+}

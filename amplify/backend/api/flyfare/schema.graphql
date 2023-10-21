@@ -1,0 +1,32 @@
+type ItineraryItems @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Type: String
+  Name: String
+  Location: String
+  Date_and_Time: AWSDateTime
+  Duration: Float
+  Notes: String
+  itinerariesID: ID! @index(name: "byItineraries")
+  FlightItem: [Flights] @hasMany(indexName: "byItineraryItems", fields: ["id"])
+}
+
+type Itineraries @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Name: String
+  Description: String
+  Creation_DateTime: AWSDateTime
+  Rel1: [ItineraryItems] @hasMany(indexName: "byItineraries", fields: ["id"])
+}
+
+type Flights @model @auth(rules: [{allow: public, operations: [read]}]) {
+  id: ID!
+  Airline: String
+  Flight_No: String
+  Departure_Airport: String
+  Arrival_Airport: String
+  Departure_DateTime: AWSDateTime
+  Arrival_DateTime: AWSDateTime
+  Flight_Status: String
+  Flight_Price: Float
+  itineraryitemsID: ID! @index(name: "byItineraryItems")
+}
