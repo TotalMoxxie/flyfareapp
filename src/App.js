@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import {
-  NavBar
+  NavBar, Footer
 } from './ui-components';
 
 
 function App() {
   return (
-      <NavBar />
+      <NavBar />,
+      <Footer />
   );
 }
 
