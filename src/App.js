@@ -1,14 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import {
-  NavBar, Footer
+  NavBar, Footer, HomePage, MyItinerary, TrackFlights
 } from './ui-components';
 
 
 function App() {
   return (
-      <NavBar />,
+      <div>
+      <NavBar />
+          <HomePage />
       <Footer />
+      </div>
   );
 }
 

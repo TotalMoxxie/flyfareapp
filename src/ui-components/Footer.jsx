@@ -6,7 +6,7 @@
 
 /* eslint-disable */
 import * as React from "react";
-import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { getOverrideProps } from "./utils";
 import { Flex, Icon, Text, View } from "@aws-amplify/ui-react";
 export default function Footer(props) {
   const { overrides, ...rest } = props;
@@ -14,14 +14,14 @@ export default function Footer(props) {
     <Flex
       gap="120px"
       direction="column"
-      width="1440px"
-      height="unset"
+      width="1444px"
+      height="375px"
       justifyContent="flex-start"
       alignItems="flex-start"
       overflow="hidden"
       position="relative"
       padding="48px 104px 24px 104px"
-      backgroundColor="rgba(247,251,253,1)"
+      backgroundColor="rgba(255,255,255,1)"
       {...getOverrideProps(overrides, "Footer")}
       {...rest}
     >
@@ -50,7 +50,7 @@ export default function Footer(props) {
           basis="0"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "col20554")}
+          {...getOverrideProps(overrides, "col124")}
         >
           <View
             width="95px"
@@ -63,7 +63,7 @@ export default function Footer(props) {
             shrink="0"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "en_record_100754 1")}
+            {...getOverrideProps(overrides, "Logo")}
           >
             <View
               padding="0px 0px 0px 0px"
@@ -86,8 +86,8 @@ export default function Footer(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 13.49609375,
-                  height: 8.9501953125,
+                  width: 13.49603271484375,
+                  height: 8.95025634765625,
                 }}
                 paths={[
                   {
@@ -106,7 +106,7 @@ export default function Footer(props) {
                 bottom="82.84%"
                 left="54.51%"
                 right="19.53%"
-                {...getOverrideProps(overrides, "Vector50649")}
+                {...getOverrideProps(overrides, "Vector128")}
               ></Icon>
               <Icon
                 width="18.87px"
@@ -114,8 +114,8 @@ export default function Footer(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 18.8662109375,
-                  height: 19.25732421875,
+                  width: 18.86627197265625,
+                  height: 19.25738525390625,
                 }}
                 paths={[
                   {
@@ -134,7 +134,7 @@ export default function Footer(props) {
                 bottom="46.35%"
                 left="63.72%"
                 right="0%"
-                {...getOverrideProps(overrides, "Vector50650")}
+                {...getOverrideProps(overrides, "Vector129")}
               ></Icon>
               <Icon
                 width="11.37px"
@@ -142,8 +142,8 @@ export default function Footer(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 11.373046875,
-                  height: 14.41552734375,
+                  width: 11.37298583984375,
+                  height: 14.41546630859375,
                 }}
                 paths={[
                   {
@@ -162,7 +162,7 @@ export default function Footer(props) {
                 bottom="53.45%"
                 left="40.98%"
                 right="37.15%"
-                {...getOverrideProps(overrides, "Vector50651")}
+                {...getOverrideProps(overrides, "Vector1210")}
               ></Icon>
               <Icon
                 width="18.94px"
@@ -170,8 +170,8 @@ export default function Footer(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 18.94287109375,
-                  height: 23.851806640625,
+                  width: 18.9429931640625,
+                  height: 23.8519287109375,
                 }}
                 paths={[
                   {
@@ -190,7 +190,7 @@ export default function Footer(props) {
                 bottom="21.68%"
                 left="0%"
                 right="63.57%"
-                {...getOverrideProps(overrides, "Vector50652")}
+                {...getOverrideProps(overrides, "Vector1211")}
               ></Icon>
               <Icon
                 width="2.64px"
@@ -198,8 +198,8 @@ export default function Footer(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 2.64404296875,
-                  height: 5.905029296875,
+                  width: 2.64398193359375,
+                  height: 5.90496826171875,
                 }}
                 paths={[
                   {
@@ -218,7 +218,7 @@ export default function Footer(props) {
                 bottom="4.62%"
                 left="70.5%"
                 right="24.42%"
-                {...getOverrideProps(overrides, "Vector50654")}
+                {...getOverrideProps(overrides, "Vector1213")}
               ></Icon>
               <Icon
                 width="13.96px"
@@ -227,7 +227,7 @@ export default function Footer(props) {
                   minX: 0,
                   minY: 0,
                   width: 13.95947265625,
-                  height: 6.80126953125,
+                  height: 6.80120849609375,
                 }}
                 paths={[
                   {
@@ -246,7 +246,7 @@ export default function Footer(props) {
                 bottom="19.82%"
                 left="62.05%"
                 right="11.11%"
-                {...getOverrideProps(overrides, "Vector50656")}
+                {...getOverrideProps(overrides, "Vector1215")}
               ></Icon>
               <Icon
                 width="19.39px"
@@ -255,7 +255,7 @@ export default function Footer(props) {
                   minX: 0,
                   minY: 0,
                   width: 19.38720703125,
-                  height: 17.695556640625,
+                  height: 17.69561767578125,
                 }}
                 paths={[
                   {
@@ -274,7 +274,7 @@ export default function Footer(props) {
                 bottom="16.17%"
                 left="36.16%"
                 right="26.55%"
-                {...getOverrideProps(overrides, "Vector50658")}
+                {...getOverrideProps(overrides, "Vector1217")}
               ></Icon>
               <Icon
                 width="9.66px"
@@ -282,7 +282,7 @@ export default function Footer(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 9.65966796875,
+                  width: 9.6595458984375,
                   height: 4.185302734375,
                 }}
                 paths={[
@@ -302,7 +302,7 @@ export default function Footer(props) {
                 bottom="32.86%"
                 left="52.07%"
                 right="29.36%"
-                {...getOverrideProps(overrides, "Vector50659")}
+                {...getOverrideProps(overrides, "Vector1218")}
               ></Icon>
               <Icon
                 width="2.29px"
@@ -311,7 +311,7 @@ export default function Footer(props) {
                   minX: 0,
                   minY: 0,
                   width: 2.293212890625,
-                  height: 2.473388671875,
+                  height: 2.47332763671875,
                 }}
                 paths={[
                   {
@@ -330,7 +330,7 @@ export default function Footer(props) {
                 bottom="15.08%"
                 left="75.5%"
                 right="20.09%"
-                {...getOverrideProps(overrides, "Vector50660")}
+                {...getOverrideProps(overrides, "Vector1219")}
               ></Icon>
               <Icon
                 width="11.49px"
@@ -338,7 +338,7 @@ export default function Footer(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 11.488525390625,
+                  width: 11.4884033203125,
                   height: 11.079345703125,
                 }}
                 paths={[
@@ -358,7 +358,7 @@ export default function Footer(props) {
                 bottom="15.94%"
                 left="48.44%"
                 right="29.47%"
-                {...getOverrideProps(overrides, "Vector50661")}
+                {...getOverrideProps(overrides, "Vector1220")}
               ></Icon>
               <Icon
                 width="16.1px"
@@ -366,8 +366,8 @@ export default function Footer(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 16.104248046875,
-                  height: 13.42138671875,
+                  width: 16.10418701171875,
+                  height: 13.42132568359375,
                 }}
                 paths={[
                   {
@@ -386,7 +386,7 @@ export default function Footer(props) {
                 bottom="0%"
                 left="15.3%"
                 right="53.73%"
-                {...getOverrideProps(overrides, "Vector50662")}
+                {...getOverrideProps(overrides, "Vector1221")}
               ></Icon>
             </View>
             <Icon
@@ -395,8 +395,8 @@ export default function Footer(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 13.49609375,
-                height: 8.9501953125,
+                width: 13.49603271484375,
+                height: 8.95025634765625,
               }}
               paths={[
                 {
@@ -414,7 +414,7 @@ export default function Footer(props) {
               bottom="68.99%"
               left="51.86%"
               right="33.93%"
-              {...getOverrideProps(overrides, "Vector50664")}
+              {...getOverrideProps(overrides, "Vector1222")}
             ></Icon>
             <Icon
               width="18.87px"
@@ -422,8 +422,8 @@ export default function Footer(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 18.8662109375,
-                height: 19.25732421875,
+                width: 18.86627197265625,
+                height: 19.25738525390625,
               }}
               paths={[
                 {
@@ -441,7 +441,7 @@ export default function Footer(props) {
               bottom="48.95%"
               left="56.9%"
               right="23.24%"
-              {...getOverrideProps(overrides, "Vector50665")}
+              {...getOverrideProps(overrides, "Vector1223")}
             ></Icon>
             <Icon
               width="11.37px"
@@ -449,8 +449,8 @@ export default function Footer(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 11.373046875,
-                height: 14.41552734375,
+                width: 11.37298583984375,
+                height: 14.41546630859375,
               }}
               paths={[
                 {
@@ -468,7 +468,7 @@ export default function Footer(props) {
               bottom="52.86%"
               left="44.45%"
               right="43.58%"
-              {...getOverrideProps(overrides, "Vector50666")}
+              {...getOverrideProps(overrides, "Vector1224")}
             ></Icon>
             <Icon
               width="18.94px"
@@ -476,8 +476,8 @@ export default function Footer(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 18.94287109375,
-                height: 23.851806640625,
+                width: 18.9429931640625,
+                height: 23.8519287109375,
               }}
               paths={[
                 {
@@ -495,7 +495,7 @@ export default function Footer(props) {
               bottom="35.41%"
               left="22.03%"
               right="58.03%"
-              {...getOverrideProps(overrides, "Vector50667")}
+              {...getOverrideProps(overrides, "Vector1225")}
             ></Icon>
             <Icon
               width="27.42px"
@@ -503,8 +503,8 @@ export default function Footer(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 27.417724609375,
-                height: 23.720703125,
+                width: 27.41778564453125,
+                height: 23.7205810546875,
               }}
               paths={[
                 {
@@ -522,7 +522,7 @@ export default function Footer(props) {
               bottom="26.05%"
               left="41.82%"
               right="29.32%"
-              {...getOverrideProps(overrides, "Vector50668")}
+              {...getOverrideProps(overrides, "Vector1226")}
             ></Icon>
             <Icon
               width="16.1px"
@@ -530,8 +530,8 @@ export default function Footer(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 16.104248046875,
-                height: 13.42138671875,
+                width: 16.10418701171875,
+                height: 13.42132568359375,
               }}
               paths={[
                 {
@@ -549,7 +549,7 @@ export default function Footer(props) {
               bottom="23.51%"
               left="30.4%"
               right="52.65%"
-              {...getOverrideProps(overrides, "Vector50671")}
+              {...getOverrideProps(overrides, "Vector1229")}
             ></Icon>
           </View>
           <Text
@@ -586,7 +586,7 @@ export default function Footer(props) {
           basis="0"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "col20555")}
+          {...getOverrideProps(overrides, "col1232")}
         >
           <Flex
             gap="16px"
@@ -635,7 +635,7 @@ export default function Footer(props) {
               shrink="0"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "list20537")}
+              {...getOverrideProps(overrides, "list1235")}
             >
               <Text
                 fontFamily="Inter"
@@ -770,7 +770,7 @@ export default function Footer(props) {
               shrink="0"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "list20532")}
+              {...getOverrideProps(overrides, "list1242")}
             >
               <Text
                 fontFamily="Inter"
@@ -884,7 +884,7 @@ export default function Footer(props) {
                 minX: 0,
                 minY: 0,
                 width: 19.95947265625,
-                height: 19.388916015625,
+                height: 19.38885498046875,
               }}
               paths={[
                 {
@@ -902,7 +902,7 @@ export default function Footer(props) {
               bottom="10.75%"
               left="8.5%"
               right="8.33%"
-              {...getOverrideProps(overrides, "Vector50682")}
+              {...getOverrideProps(overrides, "Vector1255")}
             ></Icon>
           </View>
         </Flex>
